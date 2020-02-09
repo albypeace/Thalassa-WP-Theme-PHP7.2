@@ -1,0 +1,152 @@
+/* 
+    Color Style: Yellow
+*/
+
+
+/*===========================================================================
+
+    CONTENTS:
+
+    1. Social Link
+	2. Filters
+	3. Navigation
+	4. Element
+    
+        
+
+============================================================================= */
+
+a:hover, 
+.social-links li a:hover, 
+#nav li a:hover,
+#nav li ul li:hover a, 
+#nav li.current-menu-item a,
+#footer a:hover, 
+.accordion .title.active span, 
+.text-color, 
+.numbers-counter .timer, 
+.team-social-links li a:hover, 
+.team a h6:hover, 
+#filters li.active a, 
+.isotope-item figcaption a:hover, 
+.pagination li.next:hover a, 
+.pagination li.prev:hover a, 
+.post-content a:hover h1, 
+.post-content a:hover h2, 
+.post-content a:hover h3, 
+.post-content a:hover h4, 
+.post-content a:hover h5, 
+.post-content a:hover h6,
+.widget_recent_comments li a:hover, 
+.post-author .info a:hover h6, 
+.service-box .content a:hover h3{
+    color: #ebb74c;
+}
+
+#tweet-sroll-wrapper.widget li a:hover{
+    color: #ebb74c !important;
+}
+
+.info .email:hover .email-icon, 
+.info .phone:hover .phone-icon, 
+#nav li > a:hover span.has-sub, 
+.wpcf7-submit:hover, 
+#nav li.current-menu-item span.has-sub, 
+.newsletter-big .newsletter .submit:hover, 
+.btn-big:hover,
+.btn-medium:hover, 
+.btn-small:hover,
+.btn-color,
+.nivo-prevNav:hover, 
+.nivo-nextNav:hover, 
+.carousel-nav li a.c_next:hover, 
+.carousel-nav li a.c_prev:hover, 
+.portfolio-img-hover li:hover, 
+.pagination li.active, 
+.pagination li:hover, 
+.sharrre .right,  
+.widget_tag_cloud a:hover, 
+.widget .newsletter .submit:hover, 
+#respond #comment-reply:hover, 
+.tabs.vertical li.active, 
+.service-box.style-2:hover .icon, 
+span.dropcap-color, 
+.pricing-table-col.selected .head .price, 
+.countDiv:before, .countDiv:after, 
+#commingsoon .newsletter input.submit:hover, 
+.email.active .email-icon, 
+.phone.active .phone-icon{
+    background-color: #ebb74c;
+}
+
+.tabs.vertical li.active:after{
+    border-left: 10px solid #ebb74c;
+}
+.widget .newsletter .submit:hover{
+    border: 1px solid #ebb74c;
+}
+
+.tabs li.active{
+    border-top: 1px solid #ebb74c;
+}
+
+blockquote.style-2 p{
+    border-left: 5px solid #ebb74c;
+}
+
+.expand{
+    background: #f7d58f; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f7d58f 0%, #f8c866 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7d58f), color-stop(100%,#f8c866)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #f7d58f 0%,#f8c866 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #f7d58f 0%,#f8c866 100%); /* Opera 11.10+ */
+    background: linear-gradient(to bottom,  #f7d58f 0%,#f8c866 100%); /* W3C */
+
+    border: 1px solid #d6aa51;
+}
+
+.comment .comment-reply-link:hover{
+    background: url('../img/reply-hover-yellow.png') no-repeat 0 center;
+}
+
+.accordion.faq .title.active{
+    background: url('../img/accordion-active-yellow.png') no-repeat 0 0;
+}
+
+.regular_button{
+    background: #ebb74c !important;
+}
+
+#nav li:hover.has-child > a:after{background-color: #ebb74c;}
+.post-info .post-category{ background: #ebb74c !important;}
+.newsletter-big .icon{background: #ebb74c !important;}
+.newsletter-big .icon:after{border-left: 10px solid #ebb74c !important;}
+
+#nav  ul li.current_page_item a,
+
+#nav  ul li.current-menu-ancestor a,
+
+#nav  ul li.current-menu-item a,
+
+#nav  ul li.current-menu-parent a{
+
+	color:#ebb74c;
+
+}
+#nav  ul li.current_page_item.has-child > a:after,
+
+#nav  ul li.current-menu-ancestor.has-child > a:after,
+
+#nav  ul li.current-menu-item.has-child > a:after,
+
+#nav  ul li.current-menu-parent.has-child > a:after{background-color: #ebb74c;}
+
+.avada_block_green{color: white!important;
+padding: 9px 11px 8px 8px!important;
+font-size: 15px!important;
+background-color:#ebb74c!important;}
+.sticky h3{color:#ebb74c;}
+.sticky  h1{color:#ebb74c;}
+.sticky  code{color:#ebb74c;}
+.sticky .blog-meta li{color:#ebb74c;}
+.tabs.vertical li.active a{background:#ebb74c;}

@@ -1,0 +1,4294 @@
+
+/* ==========================================================================
+    1. CSS RESET
+============================================================================= */
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption,center, cite, code, dd, del, details, dfn, dialog, div, dl, dt, em, embed, fieldset, figcaption, figure, font, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, meter, nav, object, ol, output, p, pre, progress, q, rp, rt, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video, xmp { border: 0; margin: 0; padding: 0;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+b, strong {font-weight: bold;}
+img {color: transparent; font-size: 0; vertical-align: middle; -ms-interpolation-mode: bicubic; max-width: 100%;}
+ol, ul {list-style: none;}
+li {display: list-item;}
+table {border-collapse: collapse; border-spacing: 0;}
+th, td, caption {font-weight: normal; vertical-align: top; text-align: left;}
+q {quotes: none;}
+q:before, q:after {content: ''; content: none;}
+sub, sup, small {font-size: 75%;}
+sub,sup {line-height: 0; position: relative; vertical-align: baseline;}
+sub {bottom: -0.25em;}
+sup {top: -0.5em;}
+svg {overflow: hidden;}
+a{list-style: none; text-decoration: none;}
+a:active{outline: none;}
+a:focus{ outline: none;}
+:focus {outline: 0;}
+.clearfix{clear: both;}
+
+html { -webkit-font-smoothing: antialiased; }
+
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.428571429;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+.page-content{
+    width: 100%;
+    margin: 0 auto;
+    float: left;
+}
+
+.page-content.colored{
+    background: #f6f6f6;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding-top: 80px;
+    margin-bottom: 80px;
+}
+
+.page-content.colored:last-of-type{
+    margin-bottom: 0;
+}
+
+
+/* PERSONAL STYLE
+----------------------------------------------------------------------------- */
+iframe, object, embed {
+        max-width: 100%;
+}
+
+img.alignright { float: right; margin: 0 0 1em 1em; margin-left: 10px; }
+img.alignleft { float: left; margin: 0 1em 1em 0; margin-right: 10px; }
+img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.alignright { float: right; }
+.alignleft { float: left; }
+.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+
+.thumbCateg{
+	float: left;
+	margin-right: 20px;
+}
+
+.spacing{
+	margin-bottom: 30px;
+}
+
+.floatR{
+	float: right;
+	margin-right: 30px;
+}
+
+.floatL{
+	float: left;
+}
+
+.spacedBot{
+	padding-bottom: 50px;
+}
+
+.spacedButton{
+	margin-top: 20px;
+}
+
+.widgetRegistration{
+	color:#fff;
+	list-style: circle !important;
+}
+
+.imgSpeaker{
+	width: 82px;
+	height: 50px;
+	/* background-color: #fff; */
+	text-align: center;
+	margin-bottom: 5px; 
+}
+.textWidget{
+	margin-top: 10px;
+}
+li.speakerWidget{
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+#centered-list {
+    width: 800px;
+margin: 0 auto;
+}
+.coloRed{
+    background: #7e1418; 
+}
+
+.colorGray{
+    background: #F6F6F6; 
+}
+
+.white{
+	color: #ffffff;
+}
+
+.spaced{
+	padding:50px 0 0 0;
+	color:#ffffff;
+	}
+
+.spacedWhite{
+    padding:50px 0;
+    color:#000;
+    }
+	
+#events{
+	width:90%;
+	margin: 0 auto;
+	/* background-color: #fff; */
+	margin-bottom: 50px;
+}
+
+#video{
+    width:100%;
+    margin: 0 auto;
+}
+
+.speaker{
+	width: 90%;
+	margin: 0 auto;
+	background-color: #fff;
+	margin-bottom: 55px;
+	padding-bottom: 15px;
+}
+
+.boxFoto{
+	text-align: center;
+	width: 50%;
+	margin: 0 auto 15px auto;
+	height: 150px;
+}
+
+.description{
+	margin: 0 auto;
+	text-align: center;
+	color: #000;
+	text-transform: uppercase;
+}
+
+#under-red{
+	width: 100%;
+	height: 53px;
+	margin-top: 30px;
+	position: absolute; 
+	float: left;
+	background-color: #7e1418;
+	top:127px;
+ }
+ 
+#thinker{
+	position:absolute;
+	max-width: 100%;
+	top:0;
+	right: 0;
+	z-index:9999;
+	height: 210px;
+}
+
+.thinkerSize{
+	width: 157px;
+}
+
+.reg{
+	margin-bottom: 0;
+}
+
+.myButton {
+	background-color:#7e1417;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	padding:10px 70px;
+	font: 15px 'Oswald', Arial, sans-serif;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#a11017;
+	color:#ffffff !important;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myButtonFooter {
+	background-color:#333;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #444;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	padding:10px 70px;
+	font: 15px 'Oswald', Arial, sans-serif;
+	text-decoration:none;
+}
+.myButtonFooter:hover {
+	background-color:#333;
+	color:#ffffff !important;
+}
+.myButtonFooter:active {
+	position:relative;
+	top:1px;
+}
+
+#breadcrumbs{
+	margin: 0 0 50px 0;
+	border-bottom: 1px dotted #ddd;
+	color: black;
+}
+
+#search{
+	height: 53px;
+	/* width: 140px; */
+	float: left;
+	/* position: absolute; */
+	/* margin-right: 5%; */
+	margin-top: 20px;
+	margin-left: 80px;
+}
+
+#boxG{
+	background-color: #f6f6f6;
+	padding:3%;
+	margin:5% auto;
+	width: 70%;
+}
+
+
+
+/* ==========================================================================
+    2. TYPOGRAPHY
+============================================================================= */
+p, a{
+    color: #666;
+    font: 13px 'Open Sans', Arial, sans-serif;
+    line-height: 22px;
+}
+
+a.read-more{
+    float: right;
+    font-family: 'Oswald', Arial, sans-serif;
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+
+a{
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    -ms-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-transform: uppercase;
+}
+h1{
+    font: 32px  'Oswald', Arial, sans-serif;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 30px; 
+}
+
+h2{
+    font: 26px 'Oswald', Arial , sans-serif;
+    line-height: 29px;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+h3{
+    font: 24px 'Oswald', Arial, sans-serif;
+    line-height: 27px;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+h4{
+    font: 22px 'Oswald', Arial, sans-serif;
+    line-height: 25px;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+h5{
+    font: 20px 'Oswald', Arial, sans-serif;
+    line-height: 23px;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+h6{
+    font: 18px 'Oswald', Arial, sans-serif;
+    line-height: 21px;
+    font-weight: 6400;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.text-dark{
+    color: #333;
+    font-weight: 600;
+}
+
+img.float-left{
+    float: left;
+    margin: 12px 12px 12px 0;
+}
+
+img.float-right{
+    float: right;
+    margin: 12px 0px 12px 12px;
+}
+
+img + p, p+img{
+    display: block;
+    margin-top: 15px;
+}
+
+
+/* ========================================================================== 
+    3. HEADER 
+============================================================================= */
+
+/* GLOBAL STYLING 
+----------------------------------------------------------------------------- */
+.header-wrapper{
+    width: 100%;
+    border-top: 3px solid #333;
+    position: relative;
+    z-index: 1000;
+    /*background-color: #efeeee; */
+    /* background: url('../img/texture.png') repeat; */
+   	}
+
+.header-wrapper:after{
+    content:'';
+    background: url('../img/top-shadow.png') no-repeat center 0;
+    width: 100%;
+    height: 38px;
+    position: absolute;
+    bottom: -38px;
+}
+
+#header{
+    margin-top: 40px;
+}
+
+#logo{
+    float: left;
+    max-width: 100%;
+}
+
+.social-info{
+    float: right !important;
+    padding-top: 32px;
+    margin-right: 10%;
+}
+
+.social-info .social-links{
+    float: left;
+    padding-top: 4px;
+}
+
+.social-info .social-links li{
+    float: left;
+    display: block;
+    margin-right: 15px;
+}
+
+.social-links li a{
+    font-size: 12px;
+    /* color: #444; */
+
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    -ms-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+}
+
+.info{
+    float: left;
+    margin-left: 10px;
+}
+
+.info .email{
+    float: left;
+    margin-right: 3px;
+}
+
+.info .phone{
+    float: left;
+}
+
+.info .email .email-icon, 
+.info .phone .phone-icon{
+    /* background: #eee; */
+    padding: 7px;
+    display: block;
+    margin-right: 2px;
+    float: left;
+
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    -ms-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+}
+
+.info .email .email-input, 
+.info .phone .phone-input{
+    background: #eee;
+    padding: 3px 8px;
+    font-size: 12px;
+    float: left;
+    display: none;
+
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    -ms-transition: none;
+    transition: none;
+}
+
+.info .email:hover .email-icon, 
+.info .phone:hover .phone-icon, 
+.email.active .email-icon, 
+.phone.active .phone-icon{
+    color: #fff;
+}
+
+.info .phone .phone-input:hover{
+    color: #333;
+}
+
+.container-nav{
+	width: 100%;
+}
+
+/* MAIN NAVIGATION 
+----------------------------------------------------------------------------- */
+#nav-container{
+    width: 100%;
+    height: 53px;
+    margin-top: 30px;
+   /* border-top: 1px solid #eee; */
+    z-index: 900;
+    position: relative; 
+    float: left;
+}
+
+#nav{
+    height: 100%;
+    padding: 20px 0;
+    list-style: none;
+    float: left;
+}
+
+#nav > ul{
+    display: block !important;
+}
+
+#nav li{
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+
+#nav li > a{
+    width: 100%;
+    height: 100%;
+    font: 12px Arial, sans-serif;
+}
+
+#nav > ul > li > a{  
+    text-transform: uppercase;
+    color: #ffffff!important;
+}
+#nav li > a span.has-sub{
+    background: #333;
+    color: #fff;
+    padding: 0 3px;
+    font-size: 11px;
+    line-height: 10px;
+    margin-left: 5px;
+
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    -ms-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+}
+
+#nav > ul > li{
+    padding-right: 30px;
+    height: 23px;
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+#nav li a{
+    float: none;
+    display: block;
+    font: 14px Arial, sans-serif; /* before 12px */
+    color: #333;  
+    font-weight: bold;
+}
+
+
+/* MAIN NAVIGATION SECOND LEVEL
+----------------------------------------------------------------------------- */
+#nav li ul{
+    display: none;
+    position: absolute;	
+    padding-top: 15px;
+    margin: 0;
+    top: 100%;
+    left: 0;
+    z-index: 100;
+}
+
+#nav li ul li{
+    border-right: 1px solid #e6e6e6;
+    border-left: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    background: #f8f8f8;    
+
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    -ms-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+}
+
+#nav li ul li:first-child{
+    border-top: 1px solid #e6e6e6;
+}
+
+#nav li ul li:hover > a{
+    text-indent: 3px;
+}
+
+#nav li ul li:hover{
+    background: #fff;
+}
+
+#nav li ul li a{
+    text-transform: none !important;
+    font: 13px 'Droid Sans', sans-serif;
+    line-height: 15px;
+    color: #333 !important;
+    padding: 12px 20px !important; 
+
+    transition-property: text-indent;
+    transition-duration: 0.2s;
+    -webkit-transition-property: text-indent;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-property: text-indent;
+    -moz-transition-duration: 0.2s;
+    -o-transition-property: text-indent;
+    -o-transition-duration: 0.2s;
+}
+
+#nav li ul li, #nav li ul li a{
+    float: none;
+}
+
+#nav li ul li a {
+    width: 150px;
+    display: block;
+}
+
+/* MAIN NAVIGATION THIRD LEVEL
+----------------------------------------------------------------------------- */
+#nav li ul li ul {
+    display: none;
+}
+
+#nav li ul li:hover ul {
+    left: 100%;
+    top: -1px;
+    padding-top: 0 !important;
+    padding-left: 5px;
+    position: absolute;
+    display: block !important;
+}
+
+#nav li.current-menu-item ul li.current-menu-item{
+    background: #fff;
+}
+
+/* ========================================================================== 
+    HEADER STYLE 2
+============================================================================= */
+.header-wrapper.style-2{
+    border-top: none;
+}
+
+.header-wrapper.style-2 .top-bar{
+    background: #f6f6f6;
+    padding: 10px 0;
+}
+
+.header-wrapper.style-2 .top-bar .social-info .social-links{
+    float: right;
+}
+
+.top-bar .info .email .email-icon, .top-bar .info .phone .phone-icon{
+    background: #ddd;
+}
+
+.header-style-2{
+    padding-bottom: 30px;
+}
+
+.header-style-2 #nav-container{
+    margin-top: 0;
+    border-top: none;
+}
+
+.header-style-2 #nav-container #nav{
+    float: right;
+}
+
+/* ========================================================================== 
+    HEADER STYLE 3
+============================================================================= */
+.header-style-3{
+    padding-bottom: 30px;
+}
+
+.header-style-3 #nav-container{
+    margin-top: 0;
+    border-top: none;
+}
+
+.header-style-3 #nav-container #nav{
+    float: right;
+}
+
+/* ========================================================================== 
+    HEADER STYLE 4
+============================================================================= */
+.header-style-4{
+    padding-bottom: 30px;
+}
+
+.header-style-4 #nav-container{
+    margin-top: 0;
+    border-top: 0;
+    border-left: 1px solid #666;
+    padding-left: 30px;
+    height: 70px;
+}
+
+.header-style-4 #nav-container #nav{
+    padding-top: 3px;
+    padding-bottom: 0;
+}
+
+.header-style-4 #nav-container #nav .nav-column{
+    float: left;
+    width: 160px;
+    margin-right: 30px;
+}
+
+.header-style-4 #nav-container #nav .nav-column:last-child{
+    margin-right: 0;
+}
+
+.header-style-4 #nav-container #nav li ul{
+    padding-left: 15px;
+    padding-top: 0;
+    top: 0;
+    left: 100%;
+}
+
+.header-style-4 #nav-container #nav > ul > li{
+    height: 25px;
+}
+
+/* ========================================================================== 
+    4. ELEMENTS 
+============================================================================= */
+
+/* ========================================================================== 
+    4.1. PAGE TITLE 
+============================================================================= */
+#page-title{
+    width: 100%;
+    padding: 35px 0;
+    margin-bottom: 70px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+#page-title.page-title-1{    
+    background-color: #eee;
+    background-image: url('../img/page-title-1.png');
+    background-repeat: no-repeat;
+    background-position: center 0;
+}
+
+#page-title.page-title-2{    
+    background-color: #eee;
+    background-image: url('../img/page-title-2.png');
+    background-repeat: repeat-x;
+}
+
+#page-title.page-title-3{    
+    background-color: #eee;
+    background-image: url('../img/page-title-3.png');
+    background-repeat: repeat-x;
+}
+
+#page-title.page-title-4{    
+    background-color: #444;
+    background-image: url('../img/page-title-4.jpg');
+    background-repeat: repeat-x;
+    border-top: 1px solid #4f4f4f;
+    border-bottom: 1px solid #4f4f4f;
+}
+
+#page-title .title{
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+#page-title h1{
+    display: inline;
+    color: #fff;
+    background-color: #333;
+    padding: 0 5px;
+    text-transform: uppercase;
+}
+
+#page-title .subtitle{
+    width: 100%;
+}
+
+#page-title .subtitle span{
+    font: 16px 'Open Sans', Arial, sans-serif;
+    background: #fff;
+    padding: 5px 8px;
+    color: #666;
+}
+
+/* ==========================================================================
+    4.2. DIVIDERS
+============================================================================= */
+.divider-blank{
+    margin-bottom: 40px;
+    width: 100%;
+    float: left;
+}
+
+.divider{
+    width: 100%;
+    height: 1px;
+    background: url('../img/divider.png') repeat-x;
+}
+
+/* ==========================================================================
+    4.3. ACCORDION
+============================================================================= */
+.accordion .title a{
+    font-size: 14px;
+}
+
+.accordion .title span{
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+.accordion .title, 
+.accordion .content{
+    padding-bottom: 10px;
+    float: left;
+    cursor: pointer;
+    width: 100%;
+}
+
+.accordion .content{
+    padding-left: 26px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+.accordion .title.active a{
+    color: #222;
+    font-weight: 600;
+}
+
+.accordion .title a:hover{
+    color: #333;
+}
+
+/* ========================================================================== 
+    4.4. ACCORDION FAQ PAGE (ICONS PLUS AND MINUS FOR ACCORDION TITLES)
+============================================================================= */
+.accordion.faq .title{
+    background: url('../img/accordion.png') no-repeat 0 0;
+    padding-left: 50px;
+    float: left;
+}
+
+.accordion.faq .title a, 
+.accordion.faq .title.active a{
+    position: relative;
+    top: 4px;
+}
+
+.accordion.faq .content{
+    padding-left: 50px;
+    float: left;
+}
+
+.accordion.faq .content, 
+.accordion.faq .title{
+    padding-bottom: 30px;
+}
+
+/* ==========================================================================
+    4.5. BLOCKQUOTE
+============================================================================= */
+blockquote{
+    background: #f6f6f6;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+
+    font: 14px 'Open Sans', Arial, sans-serif;
+    line-height: 22px;
+    font-style: italic;
+    font-weight: 300;
+
+    float: left;
+}
+
+blockquote p{ 
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+
+}
+
+cite{
+    font-size: 12px;
+    padding: 10px 0 20px;
+    display: block;
+    width: 100%;
+    font-weight: 400;
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+p + blockquote, 
+blockquote + p{
+    display: block;
+    margin-top: 14px;
+    float: left;
+}
+
+blockquote.style-2{
+    width: 100%;
+    background: none;
+    padding-left: 40px;
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+
+    font: 14px 'Open Sans', Arial, sans-serif;
+    line-height: 22px;
+    font-style: italic;
+    font-weight: 300;
+
+    float: left;  
+}
+
+/* ==========================================================================
+    4.6. BUTTONS
+============================================================================= */
+.btn-big{
+    padding: 10px 17px;
+    font: 14px 'Open Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    background: #333;
+    color: #fff;
+
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    -ms-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+}
+
+.btn-big:hover{
+    color: #fff;
+}
+
+.btn-medium{
+    padding: 9px 15px;
+    font: 13px 'Open Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    background: #333;
+    color: #fff;
+
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    -ms-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+}
+
+.btn-medium:hover{
+    color: #fff;
+}
+
+.btn-big{
+    padding: 8px 13px;
+    font: 12px 'Open Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    background: #333;
+    color: #fff;
+
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    -ms-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+}
+
+.btn-medium:hover{
+    color: #fff;
+}
+
+/* ==========================================================================
+    4.7. CENTERED HEADINGS (LIKE INTRO NOTE BUT SMALLER BOTTOM MARGIN)
+============================================================================= */
+.heading-centered{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.heading-centered h1, 
+.heading-centered h2, 
+.heading-centered h3, 
+.heading-centered h4, 
+.heading-centered h5, 
+.heading-centered h6{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.heading-centered p{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* ==========================================================================
+    4.8. LIST CLASSIC
+============================================================================= */
+.list-classic li{
+    padding-bottom: 5px;
+}
+
+/* ===========================================================================
+    4.9. ICONS LIST 
+============================================================================= */
+.icons-list li a, 
+.icons-list li p{
+    padding-left: 10px;
+    display: inline;
+}
+
+.icons-list li{
+    padding-bottom: 3px;
+}
+
+/* ==========================================================================
+    4.10. INTRO NOTE
+============================================================================= */
+.intro-note h2{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.intro-note p{
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/* ==========================================================================
+    4.11. TABS HORIZONTAL
+============================================================================= */
+.tabs{
+    overflow: hidden;
+    float: left;
+}
+
+.tabs i{
+    padding-right: 5px; 
+    font-size: 13px;
+}
+
+.tabs li{
+    float: left;
+    border-left: 1px solid #eee;
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+    line-height: 32px;
+}
+
+.tabs li a{    
+    color: #333;    
+    padding: 0px 16px;
+    font: 12px 'Open Sans', Arial, sans-serif;
+    line-height: 33px;
+    padding-top: 2px;
+}
+
+.tabs li.active{
+    border-bottom: 1px solid #fff;
+}
+
+.tabs li:first-child{
+    border-left: none;
+}
+
+.tabs li.active:first-child{
+    border-left: 1px solid #eee;
+}
+
+.tabs li.active:last-child{
+    border-right: 1px solid #eee;
+}
+
+.tab-content-wrap{
+    border-top: 1px solid #eee;    
+    margin-top: -1px;
+    overflow: hidden;
+    float: left;
+}
+
+.tab-content{
+    padding-top: 15px;
+}
+
+/* ========================================================================== 
+    4.12. TABS VERTICAL 
+============================================================================= */
+*[class*="grid_"].tabs.vertical, 
+*[class*="grid_"].tabs.vertical li.active{
+    overflow: visible;
+}
+
+.tabs.vertical{
+    overflow: hidden;
+    float: left;
+}
+
+.tabs.vertical li{
+    float: left;
+    border-bottom: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-left: 1px solid #eee;
+    border-top: none;
+    overflow: hidden;
+    padding: 0;
+    line-height: 42px;
+    width: 100%;
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.tabs.vertical li:first-child{
+    border-top: 1px solid #eee !important;
+}
+
+.tabs.vertical li a{    
+    color: #333;    
+    padding: 15px;
+    font: 13px 'Open Sans', Arial, sans-serif;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.tabs.vertical li a i{
+    font-size: 16px;
+    padding-right: 15px;
+    position: relative;
+    top: 2px;
+}
+
+.tabs.vertical li.active{
+    border-bottom: 1px solid #eee;
+    border-right: none;
+    border-top: none;
+    background: #fff;
+    position: relative;
+}
+
+.tabs.vertical li.active:after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    right: -10px;
+    top: 50%;
+    margin-top: -10px;
+}
+
+.tabs.vertical li.active a{
+    color: #fff;
+}
+
+.tab-content-wrap.vertical{  
+    margin-top: 0;
+    overflow: hidden;
+    float: left;
+    border: none;
+}
+
+.tab-content-wrap.vertical .tab-content{
+    padding: 0;
+    background: #fff;
+}
+
+/* ==========================================================================
+    4.13. NOTE & NOTE WITH BUTTON STYLES
+============================================================================= */
+.note{
+    width: 100%;
+    background: #f6f6f6;
+    border-left: 3px solid #ccc;
+    padding: 30px;
+    position: relative;
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: boder-box;
+}
+
+.note .icon{
+    width: 60px;
+    height: 60px;
+    float: left;
+    background: #333;
+    margin-right: 30px;
+
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.note i{
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.note .text{
+    float: left;
+    position: relative;
+    padding-top: 3px;
+}
+
+.note .text h3{
+    margin-bottom: 10px;
+}
+
+.note a.btn-big{
+    float: right;
+    position: absolute;
+    right: 45px;
+    top: 50%;
+    margin-top: -20px;
+    display: block;
+}
+
+/* NOTE STYLE 1 VARIOUS COLUMN WIDTH STYLES */
+.grid_3 .note.style-1 .text{width: 100%}
+.grid_3 .note.style-1 a.btn-big{position: relative; margin-top: 20px; float: left; left:0px;}
+
+.grid_4 .note.style-1 .text{width: 100%}
+.grid_4 .note.style-1 a.btn-big{position: relative; margin-top: 20px; float: left; left:0px;}
+
+.grid_5 .note.style-1 .text{width: 240px;}
+.grid_6 .note.style-1 .text{max-width: 340px;}
+.grid_7 .note.style-1 .text{max-width: 440px;}
+.grid_8 .note.style-1 .text{max-width: 540px;}
+.grid_9 .note.style-1 .text{max-width: 640px;}
+.grid_12 .note.style-1 .text{max-width: 940px;}
+
+/* NOTE STYLE 2 VARIOUS COLUMN WIDTH STYLES */
+.grid_3 .note.style-2 .text{width: 100%;}
+.grid_3 .note.style-2 .icon{margin: 0 auto 20px; float: none; display: table;}
+.grid_3 .note.style-2 a.btn-big{position: relative; margin-top: 20px; float: left; left:0;}
+
+.grid_4 .note.style-2 .text{width: 217px;}
+.grid_4 .note.style-2 a.btn-big{position: relative; margin-top: 20px; float: left; left:90px;}
+
+.grid_5 .note.style-2 .text{width: 317px;}
+.grid_5 .note.style-2 a.btn-big{position: relative; margin-top: 20px; float: left; left:90px;}
+
+.grid_6 .note.style-2 .text{max-width: 250px;}
+.grid_7 .note.style-2 .text{max-width: 350px;}
+.grid_8 .note.style-2 .text{max-width: 450px;}
+.grid_9 .note.style-2 .text{max-width: 550px;}
+.grid_12 .note.style-2 .text{max-width: 850px;}
+
+/* ==========================================================================
+    4.14. IMAGE BOXES (ENLARGE ON HOVER EFFECT)
+============================================================================= */
+.image-box{
+    width: 100%;
+}
+
+.image-box h1, 
+.image-box h2,
+.image-box h3,
+.image-box h4, 
+.image-box h5,
+.image-box h6{
+    margin-bottom: 15px;
+}
+
+.image-box .img-container{
+    overflow: hidden;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.image-box img{
+    cursor: pointer;
+
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.image-box img:hover{
+    transform: scale(1.3) rotate(10deg);
+    -webkit-transform: scale(1.3) rotate(10deg);
+    -moz-transform: scale(1.3) rotate(10deg);
+    -o-transform: scale(1.3) rotate(10deg);
+    -ms-transform: scale(1.3) rotate(10deg);
+}
+
+
+/* ==========================================================================
+    4.15. NUMBERS COUNTER
+============================================================================= */
+.numbers-counter li{
+    float: left;
+    margin-right: 30px;
+}
+
+.numbers-counter .timer{
+    font: 36px 'Oswald', Arial, sans-serif;
+}
+
+/* ==========================================================================
+    4.16. TESTIMONIAL CAROUSEL STYLE 1
+============================================================================= */
+.testimonial-carousel{
+    float: left;
+    width: 100%;
+}
+
+.testimonial-carousel .caroufredsel_wrapper{
+    width: 100% !important;
+}
+
+.testimonial-carousel .carousel-li{
+    width: 100% !important;
+}
+
+.testimonial-carousel li{
+    border: none;
+    background: none;
+    padding: 0;
+    float: left;
+    margin-right: 10px;
+}
+
+.testimonial-carousel .carousel-li > li{
+    width: 100% !important;
+}
+
+.testimonial-carousel .content{
+    background: #f6f6f6;
+    padding: 15px;
+    position: relative;
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    margin-bottom: 25px;
+}
+
+.testimonial-carousel .content:after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    width: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+
+    border-top: 10px solid #f6f6f6;
+    left: 20px;
+    bottom: 0;
+    margin-bottom: -10px;
+}
+
+.testimonial-carousel .author img{
+    width: 71px;
+    height: 71px;
+    margin-right: 15px;
+    float: left;
+}
+
+.testimonial-carousel .author .name{
+    font-size: 15px;
+    color: #333;
+    padding-top: 10px;
+}
+
+.testimonial-carousel .author .company{
+    font-style: italic;
+    font-weight: 300;
+}
+
+/* ==========================================================================
+    4.17. TESTIMONIAL CAROUSEL STYLE 2
+============================================================================= */
+.testimonial-carousel.style-2 .author{
+    background: url('../img/testimon.png') no-repeat 0 0;
+    padding-left: 40px;
+}
+
+.testimonial-carousel.style-2 .author .name{
+    padding-top: 0px;
+}
+
+/* ==========================================================================
+    4.18. TEAM CAROUSEL
+============================================================================= */
+.team-carousel .caroufredsel_wrapper{
+    width: 1170px !important;
+    float: left !important;
+}
+
+#team-carousel > li{
+    width: 270px !important;
+    margin-right: 30px;
+    float: left;
+}
+
+.team-img-container{
+    width: 270px;
+    height: 310px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.team-img-container img{
+    width: 270px;
+    height: 310px;
+    opacity: 0.7;
+
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.team-img-container img:hover{
+    opacity: 1;
+    transform: scale(1.2) rotate(10deg);
+    -webkit-transform: scale(1.2) rotate(10deg);
+    -moz-transform: scale(1.2) rotate(10deg);
+    -o-transform: scale(1.2) rotate(10deg);
+    -ms-transform: scale(1.2) rotate(10deg);
+    width: 270px;
+    height: 310px;
+}
+
+.team h1, 
+.team h2, 
+.team h3, 
+.team h4, 
+.team h5, 
+.team h6{
+    margin-bottom: 5px;
+
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.team span.position{
+    width: 100%;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.team-social-links{
+    width: 100%;
+    margin-top: 15px;
+    float: left;
+}
+
+.team-social-links li{
+    float: left;
+    margin-right: 20px;
+}
+
+.team-social-links li a{
+    font-size: 16px;
+    color: #aaa;
+}
+
+
+/* ==========================================================================
+    4.19. CAROUSELS NAVIGATION ARROWS AND TITLE
+============================================================================= */
+.carousel-title{
+    float: left;
+    width: 100%;
+}
+
+.carousel-title h3{
+    display: inline;
+    float: left;
+}
+
+.carousel-nav-container{
+    float: left;
+    margin-left: 30px;
+}
+.carousel-nav{
+    position: relative;
+    width: 100%;
+}
+
+.carousel-nav li{
+    float: left;
+    width: 22px;
+    height: 22px;
+    background-color: #e6e6e6;
+    margin-right: 5px;
+
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.carousel-nav li a.c_next{
+    background-image: url('../img/carousel-right.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    width: 100%;
+    height: 100%;
+} 
+
+.carousel-nav li a.c_prev{
+    background-image: url('../img/carousel-left.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-nav li a.c_next:hover{
+    background-image: url('../img/carousel-right-hover.png');
+}
+
+.carousel-nav li a.c_prev:hover{
+    background-image: url('../img/carousel-left-hover.png');
+}
+
+
+/* ========================================================================== 
+    4.20. SERVICE BOXES
+============================================================================= */
+.service-box{
+    cursor: pointer;
+    float: left;
+}
+
+.service-box .content a h3{
+    margin-bottom: 3px;
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    -ms-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+}
+
+.service-box .content span{
+    text-transform: uppercase;
+    width: 100%;
+    display: block;
+}
+
+/* SERVICE BOX STYLE 1 (RECTANGLE WITH AROOW)
+----------------------------------------------------------------------------- */
+
+.service-box.style-1 .icon{
+    float: left;
+    font-size: 28px;
+    color: #fff;
+    padding: 15px;
+    float: left;
+    position: relative;
+    margin-right: 30px;
+    background-color: #333;
+    width: 58px;
+    height: 58px;
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+.service-box.style-1 .icon:after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    right: -10px;
+    top: 50%;
+    margin-top: -10px;
+    border-left: 10px solid #333;
+}
+
+.service-box.style-1 .content, 
+.service-box.style-1 .description{
+    padding-left: 90px;
+}
+
+.service-box.style-1 .content{
+    padding-top: 3px;
+    margin-bottom: 20px;
+    float: none;
+}
+
+.service-box .content a{
+    float: left;
+    width: 100%;
+}
+
+/* SERVICE BOX STYLE 2 (ROUNDED SERVICES ICONS)
+----------------------------------------------------------------------------- */
+.service-box.style-2 .icon{
+    float: left;
+    font-size: 28px;
+    color: #fff;
+    padding: 15px;
+    position: relative;
+    margin-right: 30px;
+    background-color: #333;
+
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+
+    width: 58px;
+    height: 58px;
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    -ms-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+}
+
+.service-box.style-2 .content{
+    padding-left: 90px;
+    padding-top: 3px;
+    margin-bottom: 20px;
+    float: none;
+}
+
+.service-box.style-2 .description{
+    width: 100%;
+    float: left;
+}
+
+.service-box.style-2:hover .icon{
+    animation: serviceanimation linear 2s infinite;
+    -webkit-animation: serviceanimation linear 2s infinite;
+    -moz-animation: serviceanimation linear 2s infinite;
+
+}
+
+@keyframes serviceanimation{
+    from {
+    transform: rotate(0deg);}
+
+to {
+    transform: rotate(360deg);}
+}
+
+@-webkit-keyframes serviceanimation{
+    from {
+    -webkit-transform: rotate(0deg);}
+
+to {
+    -webkit-transform: rotate(360deg);}
+}
+
+@-moz-keyframes serviceanimation{
+    from {
+    -moz-transform: rotate(0deg);}
+
+to {
+    -moz-transform: rotate(360deg);}
+}
+
+/* SERVICE BOX STYLE 3 (ICONS WITHOUT ANY BACKGROUND)
+----------------------------------------------------------------------------- */
+.service-box.style-3 .icon{
+    font-size: 28px;
+    color: #333;
+    float: left;
+    position: relative;
+    margin-right: 10px;
+    width: 40px;
+    height: 48px;
+    padding-top: 5px;
+}
+
+.service-box.style-3 .content{
+    padding-left: 50px;
+}
+
+.service-box.style-3 .description{
+    margin-top: 20px;
+}
+
+/* ==========================================================================
+    4.21. CLIENTS LIST
+============================================================================= */
+.clients-list li{
+    width: 170px;
+    /* height: 60px; */
+    margin-right: 20px;
+    margin-left: 20px;
+    float: left;
+    text-align: center;
+}
+
+*[class*="grid_"] .clients-list li:first-child{
+    margin-left: 0;
+}
+
+*[class*="grid_"] .clients-list li:last-child{
+    margin-right: 0;
+}
+
+.clients-list li img{
+    opacity: 0.8;
+    max-width: 100%;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.clients-list li:hover img{
+    opacity: 1;
+}
+
+/* ==========================================================================
+    4.22. SKILLS BAR
+============================================================================= */
+.skills-bar{
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+.skills{
+    padding-top: 20px;
+    display: block;
+}
+
+.skills li em{
+    position: relative;
+    top: -23px;
+    font: 11px Arial, sans-serif;
+    font-style: normal;
+}
+
+.skills li{
+    display: block;
+    height: 15px;
+    margin-bottom: 35px;
+
+    background: rgb(246,246,246); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(246,246,246,1) 0%, rgba(238,238,238,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(246,246,246,1)), color-stop(100%,rgba(238,238,238,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(246,246,246,1) 0%,rgba(238,238,238,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(246,246,246,1) 0%,rgba(238,238,238,1) 100%); /* Opera 11.10+ */
+    background: linear-gradient(to bottom, rgba(246,246,246,1) 0%,rgba(238,238,238,1) 100%); /* W3C */
+
+    border: 1px solid #ddd;
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.expand{
+    height: 13px;
+    position: absolute;
+    margin-top: -1px;
+}
+
+.skills .percentage-10      { width:10%;  -moz-animation:percentage-10 2s ease-out;       -webkit-animation:percentage-10 2s ease-out;}
+.skills .percentage-20      { width:20%;  -moz-animation:percentage-20 2s ease-out;       -webkit-animation:percentage-20 2s ease-out;}
+.skills .percentage-30      { width:30%;  -moz-animation:percentage-30 2s ease-out;       -webkit-animation:percentage-30 2s ease-out;}
+.skills .percentage-40      { width:40%;  -moz-animation:percentage-40 2s ease-out;       -webkit-animation:percentage-40 2s ease-out;}
+.skills .percentage-50      { width:50%;  -moz-animation:percentage-50 2s ease-out;       -webkit-animation:percentage-50 2s ease-out;}
+.skills .percentage-60      { width:60%;  -moz-animation:percentage-60 2s ease-out;       -webkit-animation:percentage-60 2s ease-out;}
+.skills .percentage-70      { width:70%;  -moz-animation:percentage-70 2s ease-out;       -webkit-animation:percentage-70 2s ease-out;}
+.skills .percentage-80      { width:80%;  -moz-animation:percentage-80 2s ease-out;       -webkit-animation:percentage-80 2s ease-out;}
+.skills .percentage-90      { width:90%;  -moz-animation:percentage-90 2s ease-out;       -webkit-animation:percentage-90 2s ease-out;}
+.skills .percentage-100      { width:100%;  -moz-animation:percentage-100 2s ease-out;       -webkit-animation:percentage-100 2s ease-out;}
+
+@-moz-keyframes percentage-10       { 0%  { width:0px;} 100%{ width:10%;}  }
+@-moz-keyframes percentage-20        { 0%  { width:0px;} 100%{ width:20%;}  }
+@-moz-keyframes percentage-30       { 0%  { width:0px;} 100%{ width:30%;}  }
+@-moz-keyframes percentage-40  { 0%  { width:0px;} 100%{ width:40%;}  }
+@-moz-keyframes percentage-50 { 0%  { width:0px;} 100%{ width:50%;} }
+@-moz-keyframes percentage-60 { 0%  { width:0px;} 100%{ width:60%;} }
+@-moz-keyframes percentage-70 { 0%  { width:0px;} 100%{ width:70%;} }
+@-moz-keyframes percentage-80 { 0%  { width:0px;} 100%{ width:80%;} }
+@-moz-keyframes percentage-90 { 0%  { width:0px;} 100%{ width:90%;} }
+@-moz-keyframes percentage-100 { 0%  { width:0px;} 100%{ width:100%;} }
+
+@-webkit-keyframes percentage-10       { 0%  { width:0px;} 100%{ width:10%;}  }
+@-webkit-keyframes percentage-20        { 0%  { width:0px;} 100%{ width:20%;}  }
+@-webkit-keyframes percentage-30       { 0%  { width:0px;} 100%{ width:30%;}  }
+@-webkit-keyframes percentage-40  { 0%  { width:0px;} 100%{ width:40%;}  }
+@-webkit-keyframes percentage-50 { 0%  { width:0px;} 100%{ width:50%;} }
+@-webkit-keyframes percentage-60 { 0%  { width:0px;} 100%{ width:60%;} }
+@-webkit-keyframes percentage-70 { 0%  { width:0px;} 100%{ width:70%;} }
+@-webkit-keyframes percentage-80 { 0%  { width:0px;} 100%{ width:80%;} }
+@-webkit-keyframes percentage-90 { 0%  { width:0px;} 100%{ width:90%;} }
+@-webkit-keyframes percentage-100 { 0%  { width:0px;} 100%{ width:100%;} }
+
+/* ==========================================================================
+    4.23. LATEST BLOG POSTS 
+============================================================================= */
+.latest-posts{
+    width: 100%;
+}
+
+.latest-posts .grid_4 .nivoSlider{
+    min-height: 168px;
+}
+
+.latest-posts .grid_4 iframe{
+    min-height: 168px;
+}
+
+.latest-posts .post-content-container{
+    padding-left: 46px;
+}
+
+.latest-posts-2 .blog-post{
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.latest-posts-2 .blog-post:last-of-type{
+    margin-bottom: 0;
+}
+
+.latest-posts-3{
+    width: 100%;
+    float: left;
+}
+
+.latest-posts-3  li{
+    position: relative;
+    display: inline-block;
+    float: left;
+    cursor: pointer;
+
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;  
+}
+
+.latest-posts-3 .blog-post-item-active{
+    padding-right: 290px;
+}
+
+.latest-posts-3 .blog-post-item-active .blog-post-item-desc{
+    opacity: 1;
+}
+
+.latest-posts-3 li .blog-post-item-img{
+    width: 265px;
+    position: relative;
+    z-index: 100;
+    overflow: hidden;
+    height: 140px;
+    padding-right: 15px;
+    overflow: hidden;
+}
+
+.latest-posts-3 .blog-post-item-desc{
+    position: absolute;
+    left: 280px;
+    z-index: 50;
+    overflow: hidden;
+    padding-left: 15px;
+    width: 250px;
+    opacity: 0;
+    top: 0;
+}
+
+.latest-posts-3 .blog-post-item-desc a h5{
+    margin-bottom: 3px;
+}
+
+.latest-posts-3 .blog-post-item-desc span.date{
+    font-style: italic;
+    margin-bottom: 10px;
+    width: 100%;
+    display: block;
+}
+
+/* ==========================================================================
+    4.24. DROPCAPS
+============================================================================= */
+span.dropcap-color{
+    color: #fff;
+    float: left;
+    margin-right: 10px;
+    font: 18px 'Open Sans', Arial,sans-serif;
+    line-height: 18px;
+    padding: 8px 10px;
+    position: relative;
+    top: 3px;
+}
+
+span.dropcap{
+    color: #fff;
+    background: #555;
+    float: left;
+    margin-right: 10px;
+    font: 18px 'Open Sans', Arial,sans-serif;
+    line-height: 18px;
+    padding: 8px 10px;
+    position: relative;
+    top: 3px;
+}
+
+/* ==========================================================================
+    4.24. INFORMATIN BOXES
+============================================================================= */
+/* INFORMATION BOXES - INFO BOX
+----------------------------------------------------------------------------- */
+.infobox{
+    background: #e0f2ff;
+    border: 1px solid #c1def2;
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.infobox p{
+    background: url('../img/info-box.png') no-repeat 0 center;
+    margin: 10px;
+    padding-left: 25px;
+    color: #61adb0;
+    text-shadow: 0 1px 0 #fff;
+}
+
+
+/* Infromation boxes - WARNING BOX
+----------------------------------------------------------------------------- */
+.warning-box{
+    background: #f8f6bc;
+    border: 1px solid #e7e48b;
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.warning-box p{
+    background: url('../img/warning-box.png') no-repeat 0 center;
+    margin: 10px;
+    padding-left: 27px;
+    color: #989426;
+    text-shadow: 0 1px 0 #fff;
+}
+
+/* Infromation boxes - SUCCES BOX 
+----------------------------------------------------------------------------- */
+.success-box{
+    background: #ebfdd7;
+    border: 1px solid #cef4a4;
+    border-radius: 3px;
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.success-box p{
+    background: url('../img/success-box.png') no-repeat 0 center;
+    margin: 10px;
+    padding-left: 25px;
+    color: #7eb244;
+    text-shadow: 0 1px 0 #fff;
+}
+
+/* Infromation boxes - ERROR BOX
+----------------------------------------------------------------------------- */
+.error-box{
+    background: #fadddd;
+    border: 1px solid #fcc1c1;
+    border-radius: 3px;
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.error-box p{
+    background: url('../img/error-box.png') no-repeat 0 center;
+    margin: 10px;
+    padding-left: 25px;
+    color: #d86d6d;
+    text-shadow: 0 1px 0 #fff;
+}
+
+/* =============================================================================
+    4.25. PRICING TABLES
+============================================================================ */
+.pricing-table-col{
+    border: 1px solid #DDD;
+    float: left;
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.pricing-table-col .head{
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0;
+}
+
+.pricing-table-col .head h2{
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 19px;
+}
+
+.pricing-table-col .head .price{
+    background: #f6f6f6;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    display: block;
+    font: 12px Arial, sans-serif;
+    color: #333;
+}
+
+.head .price .text-color{
+    font: 30px Arial, sans-serif;
+}
+
+.pricing-table-col.selected .head .price .text-color, 
+.pricing-table-col.selected .head .price{
+    color: #fff !important;
+}
+
+.pricing-table-col li{
+    color: #777;
+    padding: 8px;
+    border-bottom: 1px solid #f2f2f2;
+    border-top: 1px solid #fff;
+    text-align: center;
+    width: 100%;
+    float: left;
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.pricing-table-col li:first-child{
+    border: none;
+    float: none;
+}
+
+li.pricing-footer{
+    height: auto !important;
+    background: #f6f6f6;
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-top: none;
+}
+
+.pricing-footer .btn-small,
+.pricing-footer .btn-medium,
+.pricing-footer .btn-big{
+    margin: 5px auto;
+    display: table;
+    float: none;
+}
+
+/* PRICING TABELS SECOND STYLE */
+.pricing-table-col.labels{
+    margin-top: 72px;
+}
+
+.pricing-table-col.labels .head{
+    width: 100%;
+    background: #f6f6f6;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+}
+
+.pricing-table-col.labels .head i{
+    font-size: 15px;
+}
+
+.pricing-table-col.labels .head h5{
+    margin-bottom: 0;
+    display: inline;
+    padding-left: 10px;
+}
+
+.pricing-table-col.labels li{
+    text-align: left;
+    padding-left: 20px;
+}
+.pricing-table-col span.label{
+    display: none;
+}
+
+/* ========================================================================== 
+    5. PAGE SPECIFIC STYLES
+============================================================================= */
+
+/* ========================================================================== 
+    5.1. 404 PAGE
+============================================================================= */
+#error-page02 .page-content{
+    background: url('../img/404.jpg') no-repeat;
+    background-size: 100%;
+}
+#error-page02 #page-title{
+    margin-bottom: 0;
+}
+
+#error-page02 .row{
+    margin-bottom: 0;
+}
+.error-page02-content{
+    padding-top: 100px;
+    padding-right: 490px;
+    padding-bottom: 90px;
+}
+
+.error-page02-content h1, .error-page02-content p, 
+.error-page-content h1, .error-page-content p{
+    text-align: center;
+}
+
+.error-page02-content p{
+    font-size: 17px;
+}
+
+#error-page-search form{
+    position: relative;
+    width: 250px;
+    margin: 0 auto;
+}
+
+#error-page-search #search{
+    background: #fff;
+    border: 1px solid #ddd !important;
+    width: 100%;
+    display: block;
+    font-size: 11px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #777;
+    font-style: italic;
+    left:0;
+    top: 0;
+
+    padding: 10px;
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+#error-page-search .search-submit{
+    background: url('../img/aside-search.png') center center no-repeat;
+    width: 20px;
+    height: 100%;
+    border: none;
+    text-indent: -9999px;
+    position: absolute;
+    float: left;
+    cursor: pointer;
+    right: 6px;
+    top: 1px;
+}
+
+.error-page-big{
+    font: 280px 'Oswald', Arial, sans-serif;
+    font-weight: 300;
+    line-height: 340px;
+    text-align: center;
+    display: block;
+}
+
+/* ==========================================================================
+    5.2. PORTFOLIO ITEMS
+============================================================================= */
+.row.portfolioitems-holder{
+    margin-bottom: 30px;
+}
+
+.page-content.colored .isotope-item figcaption{
+    background: #fff;
+}
+
+.isotope-item {
+    z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+
+.isotope,
+.isotope .isotope-item {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -ms-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    -ms-transition-property: height, width;
+    -o-transition-property: height, width;
+    transition-property: height, width;
+}
+
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property:    -moz-transform, opacity;
+    -ms-transition-property:     -ms-transform, opacity;
+    -o-transition-property:      -o-transform, opacity;
+    transition-property:         transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration: 0s;
+    -ms-transition-duration: 0s;
+    -o-transition-duration: 0s;
+}
+
+.row.portfolio-filters{
+    margin-bottom: 30px;
+}
+
+#filters li{
+    float: left;
+    margin-right: 20px;
+}
+
+#filters li a{
+    font: 14px 'Oswald', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.isotope-item{
+    float: left;
+    margin-bottom: 30px;
+}
+
+.isotope-item figcaption{
+    width: 100%;
+    padding: 15px 0;
+    background: #f6f6f6;
+    border-bottom: 1px solid #ccc;
+}
+
+.isotope-item figcaption a, 
+.isotope-item figcaption span{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.isotope-item figcaption a{
+    font: 15px 'Raleway', sans-serif;
+    color: #333;
+}
+
+.masonry li{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.masonry .isotope-item.wh1, 
+.masonry .isotope-item.wh4{
+    width: 570px;
+}
+
+.masonry .isotope-item.wh2, 
+.masonry .isotope-item.wh3{
+    width: 270px;
+}
+
+.masonry.gallery li, 
+.isotope.gallery li{
+    margin-right: 1px !important;
+    margin-left: 1px !important;
+    margin-bottom: 2px;
+}
+
+.isotope.gallery.threecols > li{
+    width: 388px;
+    height: 283px;
+}
+
+.isotope.gallery.fourcols > li{
+    width: 290px;
+    height: 212px;
+}
+
+.masonry.gallery .isotope-item.wh1, 
+.masonry.gallery .isotope-item.wh4{
+    width: 582px;
+}
+
+.masonry.gallery .isotope-item.wh2, 
+.masonry.gallery .isotope-item.wh3{
+    width: 290px;
+}
+
+/* PORTFOLIO STYLES GLOBAL
+============================================================================= */
+.portfolio-style-1 .portfolio-img, 
+.portfolio-style-2 .portfolio-img{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.portfolio-style-1 .portfolio-img-hover .mask, 
+.portfolio-style-2 .portfolio-img-hover .mask{
+    background-color: #222;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio-style-1 .portfolio-img-hover li, 
+.portfolio-style-2 .portfolio-img-hover li{
+    background: #222;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -22px;
+
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.portfolio-style-1 .portfolio-img-hover li.portfolio-zoom, 
+.portfolio-style-2 .portfolio-img-hover li.portfolio-zoom{   
+    margin-left: -45px !important;
+}
+
+.portfolio-style-1 .portfolio-img-hover li.portfolio-single, 
+.portfolio-style-2 .portfolio-img-hover li.portfolio-single{   
+    margin-left: 5px !important;
+}
+
+.portfolio-style-1 .portfolio-img-hover li a, 
+.portfolio-style-2 .portfolio-img-hover li a{
+    width: 45px;
+    height: 45px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: #eee;
+}
+
+/* PORTFOLIO STYLE 1 ANIMATION ON HOVER 
+============================================================================= */
+
+.portfolio-style-1 .portfolio-img-hover{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top:0;
+    left: 0;
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.isotope-item:hover .portfolio-style-1 .portfolio-img-hover{
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    opacity: 1;
+}
+
+/* PORTFOLIO STYLE 2 ANIMATION ON HOVER 
+============================================================================= */
+.portfolio-style-2 .portfolio-img-hover{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top:0;
+    left: 0;
+    transform: scale(0,0);
+    -webkit-transform: scale(0,0);
+    -moz-transform: scale(0,0);
+    -o-transform: scale(0,0);
+    -ms-transform: scale(0,0);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.isotope-item:hover .portfolio-style-2 .portfolio-img-hover{
+    transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -o-transform: scale(1,1);
+    -ms-transform: scale(1,1);
+    opacity: 1;
+}
+
+.isotope-item .portfolio-style-2 .portfolio-img{
+    width: 100%;
+    overflow: hidden;
+}
+
+.isotope-item .portfolio-style-2 .portfolio-img img{
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.isotope-item:hover .portfolio-style-2 .portfolio-img img{
+    transform: scale(1.5) rotate(10deg);
+    -webkit-transform: scale(1.5) rotate(10deg);
+    -moz-transform: scale(1.5) rotate(10deg);
+    -o-transform: scale(1.5) rotate(10deg);
+    -ms-transform: scale(1.5) rotate(10deg);
+}
+
+/* GALLERY STYLE 2  AND STYLE 1 ANIMATION ON HOVER FOR 3 COLUMNS AND 4 COLUMNS
+============================================================================= */
+.isotope.gallery.threecols .portfolio-img,
+.isotope.gallery.threecols .portfolio-img img{
+    width: 388px;
+    overflow: hidden;
+
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.isotope.gallery.fourcols .portfolio-img,
+.isotope.gallery.fourcols .portfolio-img img{
+    width: 290px;
+    overflow: hidden;
+
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+/* MASONRY HOVER FOR ALL PORTFOLIO THUMB TYPES
+============================================================================= */
+.masonry .isotope-item.wh1 .portfolio-img, 
+.masonry .isotope-item.wh1 .portfolio-img img,
+.masonry .isotope-item.wh1 .portfolio-style-2 .portfolio-img,
+.masonry .isotope-item.wh1 .portfolio-style-2 .portfolio-img img{
+    width: 570px;
+    height: 495px;
+    overflow: hidden;
+
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.masonry .isotope-item.wh2 .portfolio-img, 
+.masonry .isotope-item.wh2 .portfolio-img img,
+.masonry .isotope-item.wh2 .portfolio-style-2 .portfolio-img,
+.masonry .isotope-item.wh2 .portfolio-style-2 .portfolio-img img{
+    width: 270px;
+    height: 197px;
+    overflow: hidden;
+
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.masonry .isotope-item.wh3 .portfolio-img, 
+.masonry .isotope-item.wh3 .portfolio-img img,
+.masonry .isotope-item.wh3 .portfolio-style-2 .portfolio-img,
+.masonry .isotope-item.wh3 .portfolio-style-2 .portfolio-img img{
+    width: 270px;
+    height: 495px;
+    overflow: hidden;
+
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.masonry .isotope-item.wh4 .portfolio-img, 
+.masonry .isotope-item.wh4 .portfolio-img img,
+.masonry .isotope-item.wh4 .portfolio-style-2 .portfolio-img,
+.masonry .isotope-item.wh4 .portfolio-style-2 .portfolio-img img{
+    width: 570px;
+    height: 197px;
+    overflow: hidden;
+
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+/* MASONRY HOVER FOR ALL GALLERY THUMB TYPES
+============================================================================= */
+.gallery .portfolio-style-1 .portfolio-img-hover li.portfolio-zoom, 
+.gallery .portfolio-style-2 .portfolio-img-hover li.portfolio-zoom{   
+    margin-left: -22px !important;
+}
+
+.masonry.gallery .isotope-item.wh1 .portfolio-img, 
+.masonry.gallery .isotope-item.wh1 .portfolio-img img,
+.masonry.gallery .isotope-item.wh1 .portfolio-style-2 .portfolio-img,
+.masonry.gallery .isotope-item.wh1 .portfolio-style-2 .portfolio-img img{
+    width: 582px;
+    height: 426px;
+    overflow: hidden;
+
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.masonry.gallery .isotope-item.wh2 .portfolio-img, 
+.masonry.gallery .isotope-item.wh2 .portfolio-img img,
+.masonry.gallery .isotope-item.wh2 .portfolio-style-2 .portfolio-img,
+.masonry.gallery .isotope-item.wh2 .portfolio-style-2 .portfolio-img img{
+    width: 290px;
+    height: 212px;
+    overflow: hidden;
+
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.masonry.gallery .isotope-item.wh3 .portfolio-img,
+.masonry.gallery .isotope-item.wh3 .portfolio-img img,
+.masonry.gallery .isotope-item.wh3 .portfolio-style-2 .portfolio-img,
+.masonry.gallery .isotope-item.wh3 .portfolio-style-2 .portfolio-img img{
+    width: 290px;
+    height: 426px;
+    overflow: hidden;
+
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.masonry.gallery .isotope-item.wh4 .portfolio-img, 
+.masonry.gallery .isotope-item.wh4 .portfolio-img img,
+.masonry.gallery .isotope-item.wh4 .portfolio-style-2 .portfolio-img,
+.masonry.gallery .isotope-item.wh4 .portfolio-style-2 .portfolio-img img{
+    width: 582px;
+    height: 212px;
+    overflow: hidden;
+
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+/* ==========================================================================
+    5.3. PORTFOLIO CAROUSEL
+============================================================================= */
+.isotope-item.carousel-four-cols .portfolio-style-2 .portfolio-img, 
+.isotope-item.carousel-four-cols .portfolio-style-2 .portfolio-img img{
+    width: 270px;
+    overflow: hidden;
+
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;  
+}
+
+#portfolio-carousel .isotope-item{
+    margin-right: 30px;
+    margin-bottom: 0;
+}
+
+#portfolio-carousel{
+    height: 268px !important;
+}
+
+.social-feed .img-overlay:hover{
+    opacity: 0.8;
+}
+
+/* ==========================================================================
+    5.5. BLOG POSTS
+============================================================================= */
+.blog-posts li.blog-post{
+    float: left;
+    /* margin-bottom: 80px; */
+    width: 100%;
+    position: relative;
+}
+
+/* STICKY BLOG POST */
+.blog-posts li.blog-post.sticky .post-content{
+    padding: 20px;
+    background: #f6f6f6;
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+.post-info{
+    width: 46px;
+    height: 92px;
+    float: left;
+    position: absolute;
+    z-index: 200;
+}
+
+.post-info .post-category{
+    width: 46px;
+    height: 46px;
+    background-color: #7e1418  !important;
+}
+
+.post-info .post-category i{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    width: 46px;
+    height: 46px;
+}
+.page-content.colored .post-info .post-date{
+    background: #fff;
+}
+
+.post-info .post-date{
+    width: 46px;
+    height: 46px;
+    background-color: #eee;
+}
+
+.post-info .post-date span{
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.post-info .post-date .day{
+    font: 18px 'Oswald', Arial, sans-serif;
+    padding-top: 7px;
+    line-height: 18px;
+    color: #333;
+}
+
+.post-info .post-date .month{
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.post-content-container{
+    float: left;
+    width: 100%;
+    padding-left: 75px; 
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-bok;
+}
+
+.post-image-container{
+    overflow: hidden;
+    width: 100%;
+    transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -o-transform: scale(1,1);
+    -ms-transform: scale(1,1);
+    opacity: 1;  
+    margin-bottom: 30px;
+}
+
+.post-image-container img{
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+
+.post-image-container:hover img{
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    opacity: 0.7;
+}
+
+.post-content a h1,
+.post-content a h2,
+.post-content a h3, 
+.post-content a h4, 
+.post-content a h5,
+.post-content a h6{
+    margin-bottom: 10px;
+
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.post-content-container .slider-wrapper{
+    margin-bottom: 30px;
+    float: left;
+    width: 100%;
+}
+
+/* BLOG META */
+.blog-meta{
+    width: 100%;
+    float: left;
+    padding: 5px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.blog-meta li{
+    float: left;
+    margin-right: 10px;
+}
+
+.blog-meta li.post-tags a:first-child{
+    padding-left: 3px;
+}
+
+/* ==========================================================================
+    BLOG MASONRY LAYOUT
+============================================================================= */
+.blog-posts.isotope.threecols li.blog-post.isotope-item{
+    width: 420px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+
+.blog-posts.isotope.threecols li.blog-post.isotope-item:nth-child(2n){
+    margin-right: 0;
+}
+
+.blog-posts li.blog-post.isotope-item img{
+    width: 100%;
+}
+
+.blog-posts li.blog-post.format-video.isotope-item iframe{
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 20px;
+}
+
+.blog-posts.isotope.full li.blog-post.isotope-item{
+    width: 370px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+
+.blog-posts.isotope.full li.blog-post.isotope-item:nth-child(3n){
+    margin-right: 0;
+}
+
+.blog-posts.isotope.full li.blog-post.isotope-item .nivoSlider{
+    min-height: 153px !important;
+}
+/* ==========================================================================
+    AUDIO BLOG POST
+============================================================================= */
+.jp-jplayer, .jp-audio{
+    float: left;
+    width: 100% !important;
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+.jp-audio{
+    margin-bottom: 20px !important;
+}
+
+.format-audio.soundcloud iframe{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* ==========================================================================
+    VIDEO BLOG POST FORMAT
+============================================================================= */
+.format-video iframe{
+    width: 100%;
+    min-height: 440px;
+    margin-bottom: 20px;
+}
+
+/* ==========================================================================
+    LINK BLOG POST FORMAT
+============================================================================= */
+.blog-post .post-content a.link{
+    background: #f6f6f6;
+    padding: 5px 10px;
+    width: 100%;
+    display: block;
+}
+
+/* ==========================================================================
+    BLOG SINGLE POST
+============================================================================= */
+.post-author{
+    float: left;
+    margin-bottom: 80px;
+    width: 100%;
+}
+
+.post-author img{
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-right: 30px;
+}
+
+.post-author .info{
+    float: left;
+    width: 695px;
+    margin-left: 0;
+}
+
+.post-author .info h6{
+    margin-bottom: 3px;
+
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.post-author .info span.member{
+    font-style: italic;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* ==========================================================================
+    POST COMMENTS
+============================================================================= */
+.post-comments{
+    width: 100%;
+    float: left;
+}
+
+.comments-li{
+    float: left;
+    margin-bottom: 30px;
+}
+
+.comments-li > li{
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.comment{
+    float: left;
+    min-height: 60px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+}
+
+.post-comments .comment + .children{
+    margin-top: 30px;
+}
+
+.post-comments .children + .children{
+    margin-top: 30px;
+}
+
+.comment .avatar{
+    width: 70px;
+    height: 70px;
+    margin-right: 30px;
+    float: left;
+}
+
+.comment-meta li{
+    font-style: italic;
+}
+
+.comment-meta .author{
+    font: 15px 'Oswald', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.comment .comment-body{
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.comment .comment-reply-link{
+    display: block;
+    margin-top: 15px;
+    background: url('../img/reply.png') no-repeat 0 center;
+    padding-left: 22px;
+    cursor: pointer;
+    font-family: 'Oswald', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.post-comments .children{
+    margin-left: 20px;
+    float: left;
+    padding: 0 0 0 20px;
+}
+
+/* COMMENT FORM */
+.comment-form, #respond{
+    float: left;
+    width: 100%;
+}
+
+#respond form{
+    margin-top: 20px;
+}
+
+#respond fieldset{
+    margin-bottom: 10px;
+}
+
+#respond label{
+    width: 100%;
+    color: #444;
+    display: block;
+    margin-bottom: 7px;
+}
+
+#respond .name-container{
+    margin-right: 20px;
+    float: left;
+}
+
+#respond .email-container{
+    float: left;
+}
+
+#respond .name-container input, 
+#respond .email-container input{
+    background: #f6F6F6;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    height: 30px;
+    width: 308px;
+    font: 12px 'Open Sans', Arial, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    color: #a9a9a9;
+
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+#respond .message{
+    float: left;
+    margin-top: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#respond .message textarea{
+    background: #f6F6F6;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+    font: 11px Arial, sans-serif;
+    line-height: 22px;
+    padding: 10px;
+    color: #a9a9a9;
+}
+
+#respond #comment-reply{
+    color: #fff;
+    font: 12px 'Open Sans', Arial,sans-serif;
+    background-color: #333;
+    cursor: pointer;
+    padding: 8px 15px;
+    border: none;
+    float: right;
+    margin-top: 10px;
+
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    text-transform: uppercase;
+}
+
+#respond .name-container input:focus, 
+#respond .email-container input:focus, 
+#respond .message textarea:focus{
+    border-color: #aaa;
+}
+
+
+/* ==========================================================================
+    5.6. SHARRE BLOG POSTS AND PORTFOLIO POSTS
+============================================================================= */
+.share-post{
+    float: left;
+    background: #f6f6f6;
+    margin-top: 30px;
+    padding: 10px 15px;
+    width: 100%;
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+.share-post span{
+    float: left;
+    display: block;
+    margin-right: 20px;
+    color: #333;
+    position: relative;
+    top: 2px;
+}
+
+.share-post #shareme{
+    float: left;
+}
+
+.sharrre .box{
+    background:#333;
+
+    -webkit-box-shadow:0 1px 1px #d3d3d3;
+    -moz-box-shadow:0 1px 1px #d3d3d3;
+    box-shadow:0 1px 1px #d3d3d3;
+
+    height:22px;
+    display:inline-block;
+    position:relative;
+
+    padding:0px 55px 0 8px;
+
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+
+    font-size:12px;
+    float:left;
+    clear:both;
+    overflow:hidden;
+
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+    cursor: pointer;
+}
+
+.sharrre .left{
+    line-height:22px;
+    display:block;
+    white-space:nowrap;
+
+    text-shadow:0px 1px 1px rgba(255,255,255,0.3);
+    color:#ffffff;
+
+    -webkit-transition:all 0.2s linear;
+    -moz-transition:all 0.2s linear;
+    -o-transition:all 0.2s linear;
+    transition:all 0.2s linear;
+}
+.sharrre .middle{
+    position:absolute;
+    height:22px;
+    top:0px;
+    right:30px;
+    width:0px;
+    background:#555;
+    text-shadow:0px -1px 1px #363f49;
+    color:#fff;
+    white-space:nowrap;
+    text-align:left;
+    overflow:hidden;
+
+    -webkit-box-shadow:-1px 0px 1px rgba(255,255,255,0.4), 1px 1px 2px rgba(0,0,0,0.2) inset;
+    -moz-box-shadow:-1px 0px 1px rgba(255,255,255,0.4), 1px 1px 2px rgba(0,0,0,0.2) inset;
+    box-shadow:-1px 0px 1px rgba(255,255,255,0.4), 1px 1px 2px rgba(0,0,0,0.2) inset;
+
+    -webkit-transition:width 0.3s linear;
+    -moz-transition:width 0.3s linear;
+    -o-transition:width 0.3s linear;
+    transition:width 0.3s linear;
+}
+.sharrre .middle a{
+    color:#ccc;
+    font-weight:bold;
+    padding:0 9px 0 9px;
+    text-align:center;
+    float:left;
+    line-height:22px;
+
+    -webkit-box-shadow:-1px 0px 1px rgba(255,255,255,0.4), 1px 1px 2px rgba(0,0,0,0.2) inset;
+    -moz-box-shadow:-1px 0px 1px rgba(255,255,255,0.4), 1px 1px 2px rgba(0,0,0,0.2) inset;
+    box-shadow:-1px 0px 1px rgba(255,255,255,0.4), 1px 1px 2px rgba(0,0,0,0.2) inset;
+}
+.sharrre .right{
+    position:absolute;
+    right:0px;
+    top:0px;
+    height:100%;
+    width:45px;
+    text-align:center;
+    line-height:22px;
+    color:#fff;
+}
+
+.sharrre .box:hover{
+    padding-right:130px;
+}
+.sharrre .middle a:hover{
+    text-decoration:none;
+    color: #fff !important;
+}
+.sharrre .box:hover .middle{
+    width:90px;
+}
+
+.blog-post .share-post{
+    margin-bottom: 80px;
+}
+
+/* ==========================================================================
+    5.7. PAGINATION FOR PORTFOLIO AND BLOG
+============================================================================= */
+.pagination{
+    float: right;
+}
+
+.pagination li{
+    float: left;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: #eee;
+
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.pagination li a{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    color: #333;
+}
+
+.pagination li.active a, 
+.pagination li:hover a{
+    color: #fff;
+}
+
+.pagination li.next{
+    background: none;
+    width: auto;
+    margin-left: 10px;
+}
+
+.pagination li.prev{
+    background: none;
+    width: auto;
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+.pagination li.next a, 
+.pagination li.prev a{
+    font: 13px 'Oswald', Arial, sans-serif;
+    text-transform: uppercase;
+    background: none;
+}
+
+.pagination li.next:hover, 
+.pagination li.prev:hover{
+    background: none;
+}
+
+/* ========================================================================== 
+    5.8. CONTACT PAGE
+============================================================================= */
+.map_canvas{
+    width: 100%;
+    height: 550px;
+}
+
+.contact-information{
+    margin-bottom: 50px;
+}
+
+/* CONTACT PAGE MAP FULL WIDTH */
+body.contact02 #page-title{
+    margin-bottom: 0;
+}
+
+.map_canvas.map_full{
+    margin-bottom: 80px;
+}
+
+/* CONTACT FORM
+============================================================================= */
+.wpcf7 fieldset{
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.wpcf7 label{
+    color: #444;
+    font: 13px Arial,sans-serif;
+    line-height: 18px;
+    margin-bottom: 5px;
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+.wpcf7-text{
+    max-width: 100%;
+    background: #f6f6f6;
+    border: 1px solid #ddd;
+    padding: 8px 10px;
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+.wpcf7-textarea{
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background: #f6f6f6;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.wpcf7-text:focus, 
+.wpcf7-textarea:focus{
+    border-color: #aaa;
+}
+
+.wpcf7-submit{
+    border: 0px solid;
+    font: 12px 'Open Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    line-height: 11px;
+    color: #fff;
+    background-color: #7e1418;
+    padding: 10px 17px;
+    cursor: pointer;
+
+    float: left;
+
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    -ms-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+
+}
+.wpcf7-submit:hover{
+	color: #fff !important;
+}
+
+/* ==========================================================================
+    6. FOOTER 
+============================================================================= */
+.footer-wrapper{
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#footer{
+    background: #6a6a6a;
+    width: 100%;
+    padding-top: 80px;
+}
+
+.footer-wrapper p, 
+.footer-wrapper a{
+    color: #fff;
+
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    -ms-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s; 
+}
+
+.footer-widget-container h5{
+    color: #ddd;
+    font-size: 16px;
+}
+
+.copyright-container{
+    background: #303030;
+    padding: 25px 0px;
+    border-top: 1px solid #4a4a4a;
+}
+
+.copyright-container a, 
+.copyright-container p{
+    font-size: 11px;
+    line-height: 10px;
+}
+
+.footer-breadcrumbs{
+    float: right;
+}
+
+.footer-breadcrumbs li{
+    float: left;
+    margin-right: 10px;
+    padding-right: 10px;
+    display: block;
+    border-right: 1px solid #666;
+    line-height: 10px;
+    text-transform: uppercase;
+}
+
+.footer-breadcrumbs li:last-child{
+    border-right: none;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+/* ==========================================================================
+    7. WIDGETS
+============================================================================= */
+
+li.widget{
+    float: left;
+    margin-bottom: 80px;
+    width: 100%;
+}
+
+/* 7.1. SIDEBAR WIDGETS AND FOOTER WIDGETS GLOBAL STYLES
+----------------------------------------------------------------------------- */
+.aside_widgets h5{
+    margin-bottom: 20px;
+}
+
+.aside-left{
+    margin-bottom: 0;
+    float: left;
+}
+
+.aside-right{
+    margin-bottom: 0;
+    float: right;
+}
+
+.widget{
+    display: block;
+    margin-bottom: 50px;
+    float: left;
+    width: 100%;
+}
+
+.widget li{
+    /* background: url('../img/aside-arrow.png') no-repeat 0 12px; */
+    /* border-bottom: 1px dotted #fff; */
+    /* padding-left: 28px; */
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.widget li:last-child{
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.footer-widget-container .widget li{
+    /* border-bottom: 1px dotted #555; */
+}
+
+/* 7.2. NEWSLETTER SUBSCRIBE BIG SECTION
+============================================================================= */
+.newsletter-big .row{
+    margin-bottom: 0;
+}
+
+.newsletter-big{
+    background: #fcfcfc;
+    padding: 30px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.newsletter-big .icon{
+    font-size: 30px;
+    color: #fff;
+    padding: 15px;
+    float: left;
+    position: relative;
+    margin-right: 40px;
+    background-color: #333;
+}
+
+.newsletter-big .icon:after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    right: -10px;
+    top: 50%;
+    margin-top: -10px;
+    border-left: 10px solid #333;
+}
+
+.newsletter-big .subscribe-text{
+    float: left;
+    max-width: 840px;
+    margin-right: 20px;
+    padding-top: 8px;
+}
+
+.newsletter-big .subscribe-text h3{
+    margin-bottom: 3px;
+}
+
+.newsletter-big .subscribe-text span{
+    text-transform: uppercase;
+}
+
+.newsletter-big .newsletter{
+    float: right;
+    margin-top: 14px;
+}
+
+.newsletter-big .newsletter .email{
+    background: #fff;
+    border: 1px solid #ddd;
+    float: left;
+
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+
+    width: 148px;
+    height: 28px;
+    padding: 0 10px;
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    font-size: 11px;
+}
+
+.newsletter-big .newsletter .submit{
+    border: 0px solid;
+    font: 12px 'Open Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    line-height: 11px;
+    color: #fff;
+    background-color: #333;
+    padding: 8px 13px;
+    cursor: pointer;
+    position: relative;
+    top: -2px;
+
+    float: left;
+
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    -ms-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+/* 7.3. NEWSLETTER SUBSCRIBE SMALL 
+----------------------------------------------------------------------------- */
+.aside_widgets .newsletter .email{
+    background: #fff;
+    border: 1px solid #ddd; 
+}
+
+.aside_widgets .newsletter .submit{
+    background: #fff;
+    border: 1px solid #ddd;
+    color: #777;
+}
+
+.aside_widgets .newsletter .submit:hover{
+    color: #fff;
+}
+
+.widget .newsletter .email{
+    background: #fff;
+    border: 1px solid #ddd;
+
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+
+    width: 148px;
+    height: 28px;
+    padding: 0 10px;
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    font-size: 11px;
+}
+
+.widget .newsletter .submit{
+    height: 28px;
+    color: #eee;
+    font-size: 11px;
+    position: relative;
+    top: 0;
+    padding: 0 15px;
+    cursor: pointer;
+
+    border: 1px solid #222;
+    background: #333;
+
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    -ms-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+}
+
+.widget .newsletter .submit:hover{
+    background: #f6f6f6;
+
+    border: 1px solid #ddd;
+
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.footer-widget-container .newsletter .email{
+    background: #303030;
+    border: 1px solid #222;
+    color: #ccc;
+}
+
+.footer-widget-container .newsletter .submit{
+    background: #222;
+    border: 1px solid #000;
+}
+
+.footer-widget-container .newsletter .submit:hover{ 
+    color: #fff;
+}
+
+/* 7.4. TWITTER WIDGET
+============================================================================= */
+#tweet-sroll-wrapper.widget li{
+    border: none;
+    background: url('../img/tweet.png') no-repeat 0 5px;
+    padding-left: 43px;
+    margin-bottom: 8px;
+}
+
+.footer-widget-container #tweet-sroll-wrapper.widget li a{
+    color: #ccc;
+}
+
+#tweet-sroll-wrapper.widget .tweets-list-container{
+    overflow: hidden;
+    width: 100%;
+}
+
+#tweet-sroll-wrapper.widget .tweet-list{
+    position: relative;
+}
+
+/* 7.5. LATEST PORTFOLIO PROJECTS WIDGET
+============================================================================= */
+.widget-portfolio ul{
+    float: left;
+    width: 100%;
+}
+
+li.widget.widget-portfolio li{
+    background: none;
+    border-bottom: none;
+    padding: 0;
+}
+
+.widget-portfolio li, 
+.widget-portfolio li img{
+    width: 64px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    float: left;
+}
+
+.widget-portfolio li img, 
+.widget-portfolio li{
+    overflow: hidden;
+    height: 64px;
+    width: 64px;
+}
+
+.widget-portfolio li:nth-child(4n){
+    margin-right: 0;
+}
+
+.widget-portfolio li a img{
+    opacity: 0.6;
+
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.widget-portfolio li a img:hover{
+    opacity:1;
+    transform: scale(1.2) rotate(10deg);
+    -webkit-transform: scale(1.2) rotate(10deg);
+    -moz-transform: scale(1.2) rotate(10deg);
+    -o-transform: scale(1.2) rotate(10deg);
+    -ms-transform: scale(1.2) rotate(10deg);
+}
+
+/* 7.6. CONTACT INFO WIDGET
+============================================================================= */
+.widget .contact-info li{
+    padding-bottom: 10px;
+    background: none;
+    padding-left: 0;
+    padding-top: 0;
+    border-bottom: none !important;
+}
+
+.widget .contact-info .icon{
+    padding-right: 5px;
+}
+
+/* 7.7. WIDGET SEARCH
+----------------------------------------------------------------------------- */
+.widget_search form{
+    position: relative;
+    margin-top: 8px;
+}
+
+.widget_search #a_search{
+    background: #fff;
+    border: 1px solid #ddd !important;
+    width: 100%;
+    display: block;
+    font-size: 11px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #777;
+    font-style: italic;
+    left:0;
+    top: 0;
+
+    padding: 10px;
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+.widget_search .search-submit{
+    background: url('../img/aside-search.png') center center no-repeat;
+    width: 20px;
+    height: 100%;
+    border: none;
+    text-indent: -9999px;
+    position: absolute;
+    float: left;
+    cursor: pointer;
+    right: 6px;
+    top: 1px;
+}
+
+/* 7.8. BLOG RECENT POSTS WIDGET
+============================================================================= */
+.pi_recent_posts .post-info{
+    position: relative;
+    margin-right: 20px;
+    height: 46px;
+    float: left;
+}
+
+.pi_recent_posts li{
+    float: left;
+    border-bottom: none;
+    background: none;
+    margin-bottom: 15px;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.pi_recent_posts .post .comments-number{
+    font-style: italic;
+    font-size: 12px;
+}
+
+.footer-widget-container .pi_recent_posts li{
+    border-bottom: none;
+}
+
+.footer-widget-container .pi_recent_posts .post-info .post-date{
+    background: #555;
+}
+
+.footer-widget-container .pi_recent_posts .post-info .post-date .day{
+    color: #ddd;
+}
+
+.footer-widget-container .pi_recent_posts .post-info .post-date .month{
+    color: #aaa;
+}
+
+/* 7.9. SOCIAL PHOTO STREAM WIDGETS
+============================================================================= */
+.widget.social-feed li{
+    background: none;
+    border: none;
+    padding: 0;
+    float: left;
+    width: 66px;
+    height: 66px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    overflow: hidden;
+}
+
+.widget.social-feed li a img{
+    width: 66px;
+    height: 66px;
+    opacity: 0.6;
+
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.widget.social-feed li a img:hover{
+    opacity:1;
+    transform: scale(1.2) rotate(10deg);
+    -webkit-transform: scale(1.2) rotate(10deg);
+    -moz-transform: scale(1.2) rotate(10deg);
+    -o-transform: scale(1.2) rotate(10deg);
+    -ms-transform: scale(1.2) rotate(10deg);
+}
+
+.widget.social-feed li:nth-child(4n){
+    margin-right: 0;
+}
+
+/* 7.10. TESTIMONIAL WIDGET
+============================================================================= */
+.widget.pi_testimonial li{
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+.footer-widget-container .widget.pi_testimonial li p.content{
+    background-color: #555;
+}
+
+.footer-widget-container .widget.pi_testimonial li p.content:after{
+    border-top: 10px solid #555;
+}
+
+.footer-widget-container .widget.pi_testimonial li p.name{
+    color: #ddd;
+}
+
+.footer-widget-container .widget.pi_testimonial li span.company{
+    color: #aaa;
+}
+
+/* 7.11. WIDGET TAG CLOUD
+=============================================================================  */
+.widget_tag_cloud a{
+    background: #f6f6f6;
+    color: #777;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    margin-right: 2px;
+}
+
+.widget_tag_cloud a:hover{
+    color: #fff !important;
+}
+
+.footer-widget-container .widget_tag_cloud a{
+    background: #555;
+    color: #ddd;
+}
+
+/* 7.12. WIDGET RECENT COMMENTS
+=============================================================================  */
+.widget_recent_comments li{
+    background: url('../img/comment.png') no-repeat 0 10px;
+    padding-left: 26px;
+    color: #444;
+}
+
+.widget_recent_comments li:hover{
+    background: url('../img/comment.png') no-repeat 0 10px;
+}
+
+.widget_recent_comments li a{
+    text-decoration: underline;
+    font-style: italic;
+    color: #888;
+}
+
+.footer-widget-container .widget_recent_comments li{
+    color: #ccc;
+}
+
+/* 8. SCROLL TO TOP
+============================================================================= */
+.scroll-up{
+    width:40px;
+    height:40px;
+    opacity:0.3;
+    position:fixed;
+    bottom:50px;
+    right:100px;
+    display:none;
+    text-indent:-9999px;
+    background: url('../img/icon_top.png') no-repeat;
+}
+
+/* ========================================================================== 
+    9. COMMING SOON
+============================================================================= */
+body#commingsoon #header{
+    padding-bottom: 40px;
+}
+
+#commingsoon #logo{
+    width: 162px;
+    margin: 0 auto;
+    float: none;
+}
+
+/* BACKGROUND SLIDESHOW
+============================================================================= */
+.cb-slideshow{
+    background: #333;
+}
+
+.cb-slideshow,
+.cb-slideshow:after {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 127px;
+    left: 0px;
+    z-index: 0;
+    overflow: hidden;
+}
+.cb-slideshow:after {
+    content: '';
+    background: transparent url(../img/commingsoon/pattern.png) repeat top left;
+}
+.cb-slideshow li span {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-animation: imageAnimation 36s linear infinite 0s;
+    -moz-animation: imageAnimation 36s linear infinite 0s;
+    -o-animation: imageAnimation 36s linear infinite 0s;
+    -ms-animation: imageAnimation 36s linear infinite 0s;
+    animation: imageAnimation 36s linear infinite 0s;
+}
+
+.cb-slideshow li:nth-child(1) span { background-image: url(../img/commingsoon/image-1.jpg); }
+.cb-slideshow li:nth-child(2) span {
+    background-image: url(../img/commingsoon/image-2.jpg);
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    -ms-animation-delay: 6s;
+    animation-delay: 6s;
+}
+.cb-slideshow li:nth-child(3) span {
+    background-image: url(../img/commingsoon/image-3.jpg);
+    -webkit-animation-delay: 12s;
+    -moz-animation-delay: 12s;
+    -o-animation-delay: 12s;
+    -ms-animation-delay: 12s;
+    animation-delay: 12s;
+}
+
+.cb-slideshow li:nth-child(4) span {
+    background-image: url(../img/commingsoon/image-4.jpg);
+    -webkit-animation-delay: 18s;
+    -moz-animation-delay: 18s;
+    -o-animation-delay: 18s;
+    -ms-animation-delay: 18s;
+    animation-delay: 18s;
+}
+.cb-slideshow li:nth-child(5) span {
+    background-image: url(../img/commingsoon/image-5.jpg);
+    -webkit-animation-delay: 24s;
+    -moz-animation-delay: 24s;
+    -o-animation-delay: 24s;
+    -ms-animation-delay: 24s;
+    animation-delay: 24s;
+}
+.cb-slideshow li:nth-child(6) span {
+    background-image: url(../img/commingsoon/image-6.jpg);
+    -webkit-animation-delay: 30s;
+    -moz-animation-delay: 30s;
+    -o-animation-delay: 30s;
+    -ms-animation-delay: 30s;
+    animation-delay: 30s;
+}
+
+@-webkit-keyframes imageAnimation { 
+    0% {
+    opacity: 0;
+    -webkit-animation-timing-function: ease-in;
+}
+8% {
+    opacity: 1;
+    -webkit-transform: scale(1.05);
+    -webkit-animation-timing-function: ease-out;
+}
+17% {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+}
+22% {
+    opacity: 0;
+    -webkit-transform: scale(1.1) translateY(-20%);
+}
+25% {
+    opacity: 0;
+    -webkit-transform: scale(1.1) translateY(-100%);
+}
+100% { opacity: 0 }
+}
+@-moz-keyframes imageAnimation { 
+    0% {
+    opacity: 0;
+    -moz-animation-timing-function: ease-in;
+}
+8% {
+    opacity: 1;
+    -moz-transform: scale(1.05);
+    -moz-animation-timing-function: ease-out;
+}
+17% {
+    opacity: 1;
+    -moz-transform: scale(1.1);
+}
+22% {
+    opacity: 0;
+    -webkit-transform: scale(1.1) translateY(-20%);
+}
+25% {
+    opacity: 0;
+    -moz-transform: scale(1.1) translateY(-100%);
+}
+100% { opacity: 0 }
+}
+@-o-keyframes imageAnimation { 
+    0% {
+    opacity: 0;
+    -o-animation-timing-function: ease-in;
+}
+8% {
+    opacity: 1;
+    -o-transform: scale(1.05);
+    -o-animation-timing-function: ease-out;
+}
+17% {
+    opacity: 1;
+    -o-transform: scale(1.1);
+}
+22% {
+    opacity: 0;
+    -webkit-transform: scale(1.1) translateY(-20%);
+}
+25% {
+    opacity: 0;
+    -o-transform: scale(1.1) translateY(-100%);
+}
+100% { opacity: 0 }
+}
+@-ms-keyframes imageAnimation { 
+    0% {
+    opacity: 0;
+    -ms-animation-timing-function: ease-in;
+}
+8% {
+    opacity: 1;
+    -ms-transform: scale(1.05);
+    -ms-animation-timing-function: ease-out;
+}
+17% {
+    opacity: 1;
+    -ms-transform: scale(1.1);
+}
+22% {
+    opacity: 0;
+    -webkit-transform: scale(1.1) translateY(-20%);
+}
+25% {
+    opacity: 0;
+    -ms-transform: scale(1.1) translateY(-100%);
+}
+100% { opacity: 0 }
+}
+@keyframes imageAnimation { 
+    0% {
+    opacity: 0;
+    animation-timing-function: ease-in;
+}
+8% {
+    opacity: 1;
+    transform: scale(1.05);
+    animation-timing-function: ease-out;
+}
+17% {
+    opacity: 1;
+    transform: scale(1.1);
+}
+22% {
+    opacity: 0;
+    -webkit-transform: scale(1.1) translateY(-20%);
+}
+25% {
+    opacity: 0;
+    -transform: scale(1.1) translateY(-100%);
+}
+100% { opacity: 0 }
+}
+
+/* Show at least something when animations not supported */
+.no-cssanimations .cb-slideshow li:first-child span{
+    opacity: 1;
+}
+
+/* COMMING SOON PAGE CONTENT */
+#commingsoon .page-content{
+    z-index: 100;
+    position: relative;
+}
+
+#commingsoon .title h1{
+    font-size: 36px;
+    padding: 15px 15px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    display: table;
+    margin: 80px auto 0;
+}
+
+#commingsoon .subtitle h5{
+    font-size: 24px;
+    padding: 15px 15px;
+    background: rgba(255, 255, 255, 0.7);
+    color: #333;
+    display: table;
+    margin: 0 auto;
+}
+
+#commingsoon .newsletter{
+    display: table;
+    margin: 0 auto;
+}
+#commingsoon .newsletter input.email{
+    padding: 10px;
+    background: #333;
+    border: 1px solid #000;
+    color: #aaa;
+    font-size: 13px;
+}
+
+#commingsoon .newsletter input.submit{
+    font-size: 13px;
+    padding: 11px;
+    border: none;
+    background: #222;
+    color: #ddd;
+    cursor: pointer;
+    
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+#commingsoon p#note{
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+}

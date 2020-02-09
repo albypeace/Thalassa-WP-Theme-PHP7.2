@@ -1,0 +1,135 @@
+a:hover, 
+.social-links li a:hover, 
+#nav li a:hover,
+#nav li ul li:hover a, 
+#nav li.current-menu-item a,
+#footer a:hover, 
+.accordion .title.active span, 
+.text-color, 
+.numbers-counter .timer, 
+.team-social-links li a:hover, 
+.team a h6:hover, 
+#filters li.active a, 
+.isotope-item figcaption a:hover, 
+.pagination li.next:hover a, 
+.pagination li.prev:hover a, 
+.post-content a:hover h1, 
+.post-content a:hover h2, 
+.post-content a:hover h3, 
+.post-content a:hover h4, 
+.post-content a:hover h5, 
+.post-content a:hover h6,
+.widget_recent_comments li a:hover, 
+.post-author .info a:hover h6, 
+.service-box .content a:hover h3{
+    color: #7e1418;
+}
+
+#tweet-sroll-wrapper.widget li a:hover{
+    color: #7e1418 !important;
+}
+
+.info .email:hover .email-icon, 
+.info .phone:hover .phone-icon, 
+#nav li > a:hover span.has-sub, 
+.wpcf7-submit:hover, 
+#nav li.current-menu-item span.has-sub, 
+.newsletter-big .newsletter .submit:hover, 
+.btn-big:hover,
+.btn-medium:hover, 
+.btn-small:hover,
+.btn-color,
+.nivo-prevNav:hover, 
+.nivo-nextNav:hover, 
+.carousel-nav li a.c_next:hover, 
+.carousel-nav li a.c_prev:hover, 
+.portfolio-img-hover li:hover, 
+.pagination li.active, 
+.pagination li:hover, 
+.sharrre .right,  
+.widget_tag_cloud a:hover, 
+.widget .newsletter .submit:hover, 
+#respond #comment-reply:hover, 
+.tabs.vertical li.active, 
+.service-box.style-2:hover .icon, 
+span.dropcap-color, 
+.pricing-table-col.selected .head .price, 
+.countDiv:before, .countDiv:after, 
+#commingsoon .newsletter input.submit:hover, 
+.email.active .email-icon, 
+.phone.active .phone-icon{
+   /*  background-color: #d21a10; */
+   color: #7e1418;
+}
+
+.tabs.vertical li.active:after{
+    border-left: 10px solid #7e1418;
+}
+.widget .newsletter .submit:hover{
+    border: 1px solid #d21a10;
+}
+
+.tabs li.active{
+    border-top: 1px solid #d21a10;
+}
+
+blockquote.style-2 p{
+    border-left: 5px solid #d21a10;
+}
+
+.expand{
+    background: #e83130; /* Old browsers */
+    background: -moz-linear-gradient(top,  #e83130 0%, #d52b2a 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e83130), color-stop(100%,#d52b2a)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #e83130 0%,#d52b2a 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #e83130 0%,#d52b2a 100%); /* Opera 11.10+ */
+    background: linear-gradient(to bottom,  #e83130 0%,#d52b2a 100%); /* W3C */
+
+    border: 1px solid #a71818;
+}
+
+.comment .comment-reply-link:hover{
+    background: url('../img/reply-hover.png') no-repeat 0 center;
+}
+
+.accordion.faq .title.active{
+    background: url('../img/accordion-active.png') no-repeat 0 0;
+}
+
+.regular_button{
+    background: #d21a10 !important;
+}
+
+#nav li:hover.has-child > a:after{background-color: #d21a10;}
+.post-info .post-category{ background: #d21a10;}
+.newsletter-big .icon{background: #d21a10 !important;}
+.newsletter-big .icon:after{border-left: 10px solid #d21a10 !important;}
+
+#nav  ul li.current_page_item a,
+
+#nav  ul li.current-menu-ancestor a,
+
+#nav  ul li.current-menu-item a,
+
+#nav  ul li.current-menu-parent a{
+
+	color:#d21a10;
+
+}
+#nav  ul li.current_page_item.has-child > a:after,
+
+#nav  ul li.current-menu-ancestor.has-child > a:after,
+
+#nav  ul li.current-menu-item.has-child > a:after,
+
+#nav  ul li.current-menu-parent.has-child > a:after{background-color: #d21a10;}
+
+.avada_block_green{color: white!important;
+padding: 9px 11px 8px 8px!important;
+font-size: 15px!important;
+background-color:#d21a10!important;}
+.sticky h3{color:#d21a10;}
+.sticky  h1{color:#d21a10;}
+.sticky  code{color:#d21a10;}
+.sticky .blog-meta li{color:#d21a10;}
+.tabs.vertical li.active a{background:#d21a10;}

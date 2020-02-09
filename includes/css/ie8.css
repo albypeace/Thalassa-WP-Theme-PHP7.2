@@ -1,0 +1,82 @@
+.digit.static{
+    background-image: linear-gradient(bottom, #000 50%, #333 50%);
+}
+
+.team-img-container img, 
+.post-image-container:hover img{
+    filter:alpha(opacity=70);
+}
+
+.team-img-container img:hover, 
+.clients-list li:hover img, 
+.latest-posts-3 .blog-post-item-active .blog-post-item-desc, 
+.isotope-item:hover .portfolio-style-1 .portfolio-img-hover, 
+.isotope-item:hover .portfolio-style-2 .portfolio-img-hover, 
+.isotope-item:hover .portfolio-style-1 .portfolio-img-hover li, 
+.isotope-item:hover .portfolio-style-2 .portfolio-img-hover li,
+.post-image-container, 
+.widget-portfolio li a img:hover, 
+.widget.social-feed li a img:hover{
+    filter:alpha(opacity=100);
+}
+
+.clients-list li img, 
+.social-feed .img-overlay:hover{
+    filter:alpha(opacity=80);
+}
+
+.latest-posts-3 .blog-post-item-desc, 
+.portfolio-style-1 .portfolio-img-hover, 
+.portfolio-style-2 .portfolio-img-hover, 
+.social-stream-gallery .img-overlay, 
+.portfolio-style-1 .portfolio-img-hover li, 
+.portfolio-style-2 .portfolio-img-hover li{
+    filter:alpha(opacity=0); 
+}
+
+.portfolio-style-1 .portfolio-img-hover .mask, 
+.portfolio-style-2 .portfolio-img-hover .mask{
+    filter:alpha(opacity=50); 
+}
+
+.widget-portfolio li a img, 
+.widget.social-feed li a img{
+    filter:alpha(opacity=60);
+}
+
+.scroll-up{
+    filter:alpha(opacity=30);
+}
+
+.widget.pi_recent_posts .post{
+    float: left;
+    width: 190px;
+}
+
+.pi_recent_posts .post-info{
+    position: relative;
+}
+
+.blog-posts.isotope.threecols li.blog-post.isotope-item{
+    width: 400px;
+}
+
+.blog-posts.isotope.full li.blog-post.isotope-item{
+    width: 360px;
+}
+
+#countdown .position, 
+.digit, .digit.static{
+    width: 76px;
+    height: 115px;
+}
+
+#commingsoon .subtitle h5{
+    background: #fff;
+}
+
+#commingsoon .title h1{
+    background: #111;
+}
+
+.clients-list li{margin-right: 10px;}

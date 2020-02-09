@@ -1,0 +1,151 @@
+/* 
+    Color Style: Light Blue
+*/
+
+
+/*===========================================================================
+
+    CONTENTS:
+
+    1. Social Link
+	2. Filters
+	3. Navigation
+	4. Element
+    
+        
+
+============================================================================= */
+a:hover, 
+.social-links li a:hover, 
+#nav li a:hover,
+#nav li ul li:hover a, 
+#nav li.current-menu-item a,
+#footer a:hover, 
+.accordion .title.active span, 
+.text-color, 
+.numbers-counter .timer, 
+.team-social-links li a:hover, 
+.team a h6:hover, 
+#filters li.active a, 
+.isotope-item figcaption a:hover, 
+.pagination li.next:hover a, 
+.pagination li.prev:hover a, 
+.post-content a:hover h1, 
+.post-content a:hover h2, 
+.post-content a:hover h3, 
+.post-content a:hover h4, 
+.post-content a:hover h5, 
+.post-content a:hover h6,
+.widget_recent_comments li a:hover, 
+.post-author .info a:hover h6, 
+.service-box .content a:hover h3{
+    color: #7abcde;
+}
+
+#tweet-sroll-wrapper.widget li a:hover{
+    color: #7abcde !important;
+}
+
+.info .email:hover .email-icon, 
+.info .phone:hover .phone-icon, 
+#nav li > a:hover span.has-sub, 
+.wpcf7-submit:hover, 
+#nav li.current-menu-item span.has-sub, 
+.newsletter-big .newsletter .submit:hover, 
+.btn-big:hover,
+.btn-medium:hover, 
+.btn-small:hover,
+.btn-color,
+.nivo-prevNav:hover, 
+.nivo-nextNav:hover, 
+.carousel-nav li a.c_next:hover, 
+.carousel-nav li a.c_prev:hover, 
+.portfolio-img-hover li:hover, 
+.pagination li.active, 
+.pagination li:hover, 
+.sharrre .right,  
+.widget_tag_cloud a:hover, 
+.widget .newsletter .submit:hover, 
+#respond #comment-reply:hover, 
+.tabs.vertical li.active, 
+.service-box.style-2:hover .icon, 
+span.dropcap-color, 
+.pricing-table-col.selected .head .price, 
+.countDiv:before, .countDiv:after, 
+#commingsoon .newsletter input.submit:hover, 
+.email.active .email-icon, 
+.phone.active .phone-icon{
+    background-color: #7abcde;
+}
+
+.tabs.vertical li.active:after{
+    border-left: 10px solid #7abcde;
+}
+.widget .newsletter .submit:hover{
+    border: 1px solid #7abcde;
+}
+
+.tabs li.active{
+    border-top: 1px solid #7abcde;
+}
+
+blockquote.style-2 p{
+    border-left: 5px solid #7abcde;
+}
+
+.expand{
+    background: #8fd1f3; /* Old browsers */
+    background: -moz-linear-gradient(top,  #8fd1f3 0%, #7abcde 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8fd1f3), color-stop(100%,#7abcde)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #8fd1f3 0%,#7abcde 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #8fd1f3 0%,#7abcde 100%); /* Opera 11.10+ */
+    background: linear-gradient(to bottom,  #8fd1f3 0%,#7abcde 100%); /* W3C */
+
+    border: 1px solid #70a7c3;
+}
+
+.comment .comment-reply-link:hover{
+    background: url('../img/reply-hover-lb.png') no-repeat 0 center;
+}
+
+.accordion.faq .title.active{
+    background: url('../img/accordion-active-lb.png') no-repeat 0 0;
+}
+
+.regular_button{
+    background: #7abcde !important;
+}
+#nav li:hover.has-child > a:after{background-color: #7abcde;}
+.post-info .post-category{ background: #7abcde !important;}
+.newsletter-big .icon{background: #7abcde !important;}
+.newsletter-big .icon:after{border-left: 10px solid #7abcde !important;}
+
+#nav  ul li.current_page_item a,
+
+#nav  ul li.current-menu-ancestor a,
+
+#nav  ul li.current-menu-item a,
+
+#nav  ul li.current-menu-parent a{
+
+	color:#7abcde;
+
+}
+#nav  ul li.current_page_item.has-child > a:after,
+
+#nav  ul li.current-menu-ancestor.has-child > a:after,
+
+#nav  ul li.current-menu-item.has-child > a:after,
+
+#nav  ul li.current-menu-parent.has-child > a:after{background-color: #7abcde;}
+
+.avada_block_green{color: white!important;
+padding: 9px 11px 8px 8px!important;
+font-size: 15px!important;
+background-color:#7abcde!important;}
+.sticky h3{color:#7abcde;}
+
+.sticky  h1{color:#7abcde;}
+.sticky  code{color:#7abcde;}
+.sticky .blog-meta li{color:#7abcde;}
+.tabs.vertical li.active a{background:#7abcde;}
